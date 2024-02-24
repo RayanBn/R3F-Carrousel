@@ -25,10 +25,14 @@ const Carrousel = () => {
         "images/1.jpg",
         "images/2.jpg",
         "images/3.jpg",
+        "images/1.jpg",
+        "images/2.jpg",
         "images/3.jpg",
+        "images/1.jpg",
+        "images/2.jpg",
         "images/3.jpg",
     ];
-    let radius = 1.4;
+    const radius = 1.4;
     const groupRef = useRef()
 
     useFrame((_, delta) => {
